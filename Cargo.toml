@@ -1,0 +1,14 @@
+[package]
+name = "bevy_msdf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.9.1"
+bitflags = "2.0.0"
+itertools = "0.10.5"
+mint = "0.5.9"
+# msdfgen = { path = "../msdfgen-rs/", features = ["bindgen"], default-features = false }
+# owned_ttf_parser = "0.18.1"
